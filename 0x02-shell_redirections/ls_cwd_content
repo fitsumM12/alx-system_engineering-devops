@@ -1,36 +1,37 @@
-.
-..
-0-hello_world
-100-empty_casks
-101-gifs
-102-acrostic
-103-the_biggest_fan
-10-no_more_js
-11-directories
-12-newest_files
-13-unique
-14-findthatword
-15-countthatword
-16-whatsnext
-17-hidethisword
-18-letteronly
-19-AZ
-1-confused_smiley
-20-hiago
-21-reverse
-22-users_and_homes
-22-users_and_homes~
-2-hellofile
-3-twofiles
-4-lastlines
-5-firstlines
-6-third_line
-7-file
-8-cwd_state
-9-duplicate_last_line
-An Acrostic
-\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
-file.txt
-iacta
-list
-ls_cwd_content
+total 132
+drwxr-xr-x 2 root root 4096 Mar  8 07:03 .
+drwxr-xr-x 6 root root  137 Mar  8 03:52 ..
+-rwxr--r-- 1 root root   32 Mar  8 05:59 0-hello_world
+-rwxr-xr-x 1 root root   56 Mar  8 03:52 100-empty_casks
+-rwxr-xr-x 1 root root  107 Mar  8 03:52 101-gifs
+-rwxr-xr-x 1 root root   37 Mar  8 04:34 102-acrostic
+-rwxr-xr-x 1 root root  115 Mar  8 04:34 103-the_biggest_fan
+-rwxr-xr-x 1 root root   45 Mar  8 03:52 10-no_more_js
+-rwxr-xr-x 1 root root   49 Mar  8 03:52 11-directories
+-rwxr-xr-x 1 root root   29 Mar  8 05:39 12-newest_files
+-rwxr-xr-x 1 root root   27 Mar  8 03:52 13-unique
+-rwxr-xr-x 1 root root   38 Mar  8 03:52 14-findthatword
+-rwxr-xr-x 1 root root   41 Mar  8 03:52 15-countthatword
+-rwxr-xr-x 1 root root   44 Mar  8 03:52 16-whatsnext
+-rwxr-xr-x 1 root root   41 Mar  8 03:52 17-hidethisword
+-rwxr-xr-x 1 root root   49 Mar  8 03:52 18-letteronly
+-rwxr-xr-x 1 root root   35 Mar  8 03:52 19-AZ
+-rwxr-xr-x 1 root root   28 Mar  8 03:52 1-confused_smiley
+-rwxr-xr-x 1 root root   23 Mar  8 03:52 20-hiago
+-rwxr-xr-x 1 root root   15 Mar  8 03:52 21-reverse
+-rwxr-xr-x 1 root root   49 Mar  8 03:52 22-users_and_homes
+-rwxr-xr-x 1 root root   49 Mar  8 03:52 22-users_and_homes~
+-rwxr-xr-x 1 root root   29 Mar  8 06:06 2-hellofile
+-rwxr-xr-x 1 root root   40 Mar  8 06:09 3-twofiles
+-rwxr-xr-x 1 root root   33 Mar  8 06:24 4-lastlines
+-rwxr-xr-x 1 root root   33 Mar  8 06:27 5-firstlines
+-rwxr-xr-x 1 root root   36 Mar  8 06:32 6-third_line
+-rwxr-xr-x 1 root root   99 Mar  8 06:50 7-file
+-rwxr-xr-x 1 root root   36 Mar  8 07:03 8-cwd_state
+-rwxr-xr-x 1 root root   35 Mar  8 03:52 9-duplicate_last_line
+-rw-r--r-- 1 root root  383 Mar  8 04:34 An Acrostic
+-rw-r--r-- 1 root root   12 Mar  8 06:53 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 root root    0 Mar  8 04:40 file.txt
+-rw-r--r-- 1 root root  800 Mar  8 06:30 iacta
+-rw-r--r-- 1 root root  167 Mar  8 03:52 list
+-rw-r--r-- 1 root root    0 Mar  8 07:04 ls_cwd_content
