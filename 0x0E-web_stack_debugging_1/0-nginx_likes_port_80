@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Fix connection refused issue with port 80
-rm /etc/nginx/sites-enabled/default
-ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx reload
+# Configures an Nginx server to listen on port 80.
+
+sudo rm /etc/nginx/sites-enabled/default
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
