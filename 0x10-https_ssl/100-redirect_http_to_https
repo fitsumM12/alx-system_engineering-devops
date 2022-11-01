@@ -26,7 +26,7 @@ frontend www-http
 
 
 frontend www-https
-   bind   0.0.0.0:443 ssl crt /etc/letsencrypt/live/www.anten.tech/all.pem
+   bind   0.0.0.0:443 ssl crt /etc/letsencrypt/live/www.fitsefani.tech/all.pem
    reqadd X-Forwarded-Proto:\ https
    acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
    use_backend letsencrypt-backend if letsencrypt-acl
@@ -35,8 +35,8 @@ frontend www-https
 backend www-backend
    balance  roundrobin
    redirect scheme https if !{ ssl_fc }
-   server 1701-web-01 35.237.92.54:80 check
-   server 1701-web-02 3.238.90.226:80 check
+   server 4040-web-01 100.25.14.210:80 check
+   server 4040-web-02 34.227.91.149:80 check
 
 backend letsencrypt-backend
    server letsencrypt 127.0.0.1:54321
